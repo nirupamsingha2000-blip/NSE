@@ -1,0 +1,26 @@
+/*=========================
+    ROTATING ATOM
+==========================*/
+
+@keyframes rotateAtom{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+
+}
+
+.atom{
+
+    animation:rotateAtom 12s linear infinite;
+
+    text-shadow:
+        0 0 20px #38BDF8,
+        0 0 50px #38BDF8,
+        0 0 100px #38BDF8;
+
+}
